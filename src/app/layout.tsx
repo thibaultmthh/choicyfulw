@@ -1,5 +1,4 @@
-
-import { Inter } from "next/font/google";
+import "./globals.css";
 
 export const metadata = {
   title: "Choicyful",
@@ -9,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="px-7 py-5">{children}</body>
+      <body className="px-24 py-10">{children}</body>
     </html>
   );
 }
